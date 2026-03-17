@@ -1,1 +1,80 @@
 
+:root {
+    --verde: #2d5a27;
+}
+
+body {
+    font-family: sans-serif;
+    background: #e8f5e9;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    background: white;
+    padding: 20px;
+    border-radius: 24px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    color: var(--verde);
+}
+
+.config-fazenda,
+.dashboard {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input,
+button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    flex: 1;
+}
+
+button {
+    background: var(--verde);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+.card {
+    flex: 1;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    background: #f9f9f9;
+    border-bottom: 4px solid #ccc;
+}
+
+.icone {
+    font-size: 30px;
+}
+
+.status-box {
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    background: #eee;
+}
+
+.sucesso {
+    border-color: #27ae60;
+    background: #eafaf1 !important;
+}
+
+.alerta {
+    border-color: #e67e22;
+    background: #fef5e7 !important;
+}
