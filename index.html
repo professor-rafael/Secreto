@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secreto®️</title>
+    <link rel="stylesheet" href= "stylesheet">
+</head>
+<body>
+    <main>
+        <header>
+            <h1> Secreto 📡</h1>
+            <p> Equilíbrio entre produção e meio ambiente!</p>
+        </header>
+        <section>
+            <input type="number" name="producao" id="producao" placeholder="Hectares de produção">
+            <input type="number" name="mata" id="mata" placeholder="Hectares de mata">
+            <button id="btnAtualizar">Atualizar painel</button>
+        </section>
 
+
+        <section>
+            <div id="cardProducao">
+                <h3> Produção agrícola</h3>
+                <div> 🚜</div>
+                <p id="txtProdução">0 ha</p>
+            </div>
+
+            <div id="cardPreservacao">
+                <h3> Área de preservação</h3>
+                <div> 🌳</div>
+                <p id="txtPreservacao">0 ha</p>
+            </div>
+        </section>
+
+
+        <section id="mensagemStatus">
+            Aguardando dados para análise ...
+        </section>
+    </main>
+</body>
+</html>
